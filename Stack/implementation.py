@@ -56,6 +56,9 @@ S.peak()
 S.display()
 
 
+
+
+
 # Using List
 
 
@@ -86,7 +89,7 @@ class Stack:
    
         
         
-        
+  
 
 S= Stack()
 S.Push(10)
@@ -94,8 +97,8 @@ S.Push(20)
 S.Push(30)
 
 
-# print(S.Peek())
-# print(S.Pop())
-# print(S.Peek())
+print(S.Peek())
+print(S.Pop())
+print(S.Peek())
 
-# print(S.Size())
+print(S.Size())
