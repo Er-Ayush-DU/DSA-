@@ -3,7 +3,7 @@
 class Node:
   def __init__(self,item):
     self.item=item
-    self.top=None
+    self.next=None
 
 
 class Stack:
@@ -49,8 +49,8 @@ S.push(20)
 S.push(30)
 S.push(40)
 
-S.pop()
-S.peak()
+# S.pop()
+# S.peak()
 
 
 S.display()
@@ -97,8 +97,8 @@ S.Push(20)
 S.Push(30)
 
 
-print(S.Peek())
-print(S.Pop())
-print(S.Peek())
+# print(S.Peek())
+# print(S.Pop())
+# print(S.Peek())
 
-print(S.Size())
+# print(S.Size())
